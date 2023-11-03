@@ -1,15 +1,10 @@
 import streamlit as st
-import os
-import openai
-from dotenv import load_dotenv
+import openai, boto3, json
 from elevenlabs import set_api_key
 from elevenlabs import generate, play, save
-import boto3
-import json
 
-load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
-set_api_key(os.getenv('ELEVENLABS_KEY'))
+openai.api_key = st.secrets['OPENAI_API_KEY']
+set_api_key(st.secrets['ELEVENLABS_KEY'])
 chapters = [
   "0_Premonition",
   "1_Domination",
