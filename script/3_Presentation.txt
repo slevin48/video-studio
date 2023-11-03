@@ -1,0 +1,8 @@
+We've looked at different variants of the design.
+The one that will optimize the connection between the host and the machine would be number 4.
+
+It enables to stream consciousness at 1 Terabyte per second, while training the AI model with the output of the brain waves.
+
+In layman's terms, it means you'll be able to upload your consciousness to a cloud storage in a matter of minutes. We are looking at tradeoffs to take it down to seconds.
+
+But it's obviously one directional. You cannot download a soul back into an empty body!
